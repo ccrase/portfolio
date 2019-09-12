@@ -130,13 +130,17 @@ body{
     padding-right: 20px;
     width: 55px;
 }
-
 .card-link:hover{
     transform: scale(1.1);
 }
-
 a:hover{
     text-decoration: none;
+}
+.quote-div{
+    text-align: center;
+}
+.quote-text{
+    font-size: 12px;
 }
 
 /* buttons */
