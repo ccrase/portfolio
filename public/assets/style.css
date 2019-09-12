@@ -1,0 +1,185 @@
+body{
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #293347;
+}
+
+/* contact header */
+/* navbar at top */
+.navbar-light{
+    /* background-color: #3c3c3c !important; */
+    /* background-color: #f27052 !important; */
+}
+hr{
+
+}
+.contact-info{
+    font-size: 18px;
+}
+.btn-link{
+    /* color: white; */
+}
+/* initals */
+.navbar-brand{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+     color: #9196F2 !important;
+}
+/* contact buttons */
+
+.btn-link:hover{
+    text-emphasis: none;
+}
+
+
+
+
+
+/* jumbortron */
+.jumbotron{
+    margin-bottom: 0;
+}
+/* jumbotron header */
+#jumbo-header{
+    font-weight: bolder;
+}
+.hello{
+    font-size: 100px;
+    font-family: 'Paytone One', sans-serif;
+     /* text-shadow: #cfd11a 3px 3px;  */
+}
+.display-4{
+    text-transform: uppercase;
+}
+/* jumbotron text */
+.lead{
+}
+/* .semicircle{
+    background-color: #FEB249;
+    float: right;
+    height: 200px;
+    width: 100px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+} */
+.rectangle{
+    height: 3px;
+    float: left;
+}
+.title-break{
+    display: none;
+}
+
+#r1{
+    width: 430px;
+    background-color: #F2D4AE;
+}
+#r2{
+    width: 470px;
+    background-color: #F2B263;
+}
+#r3{
+    width: 500px;
+    background-color: #F27052;
+}
+
+
+/* portfolio filer bar */
+.portfolio-filter{
+    margin: 5px 0 5px 0;
+    padding: 10px;
+}
+
+
+
+/* main container */
+.main{
+    padding: 10px;
+    margin-top: 10px;
+    /* background-color: white; */
+
+}
+
+
+
+
+/* cards for every project */
+.card{
+    border: none;
+}
+.img-thumbnail{
+    border: none;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+/* created date on card */
+.text-muted{
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+}
+/* title of card */
+.card-title{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.technologies-title{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* github/export/heroku links */
+.card-link{
+    padding-right: 20px;
+    width: 55px;
+}
+
+.card-link:hover{
+    transform: scale(1.2);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* buttons */
+.btn-primary{
+    font-size: 16px;
+}
+/* link buttons */
+.link{
+background-color: none;
+margin: 0 15px 0 15px;
+}
+@media only screen and (max-width: 650px){
+    .link{
+        margin: 0;
+    }
+}
+.link:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 770px){
+    .title-break{
+        display: inline;
+    }
+}
+
+
+
+
+/* bottom footer */
+#footer-body{
+    text-align: center;
+}
+blockquote{
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+}
+.created-by{
+    font-size: 12px;
+}
+/* icons */
+.footericon{
+    padding: 0px 10px 20px 10px;
+    width: 60px;
+}

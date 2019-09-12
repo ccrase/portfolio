@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!--Google Fonts CDN-->
+  <link href="https://fonts.googleapis.com/css?family=Lato:900|Paytone+One|Quattrocento+Sans|Work+Sans:300&display=swap"
+    rel="stylesheet">
+  <!--fontawesome kit-->
+  <script src="https://kit.fontawesome.com/e6979a7c66.js"></script>
+  <!--animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+  <!--external stylesheet-->
+  <link rel="stylesheet" href="./assets/style.css">
+
+  <title>Calli Crase Portfolio</title>
+
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar navbar-light bg-light fixed-top">
+    <a href="index.html"><span class="navbar-brand mb-0 h1">CC</span></a>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item contact">
+        <a class="btn btn-link link" href="index.html" role="button">Projects</a>
+      </li>
+
+      <!-- <li class="nav-item contact">
+            <a class="btn btn-link link" href="https://www.linkedin.com/in/callicrase/" role="button">LinkedIn</a>
+        </li> -->
+
+      <li class="nav-item contact">
+        <button type="button" class="btn btn-link link" data-toggle="modal" data-target="#resumeModal">
+          Resume
+        </button>
+      </li>
+
+      <!-- <li class="nav-item contact">
+            <a class="btn btn-link link" href="https://github.com/ccrase" role="button">GitHub</a>
+        </li> -->
+
+      <li class="nav-item contact">
+        <a class="btn btn-link link" href="about.html" role="button">About</a>
+      </li>
+
+      <li class="nav-item contact">
+        <a class="btn btn-link link" href="contact.html" role="button">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+
+  <!--JUMBOTRON-->
+  <div class="jumbotron jumbotron-fluid shadow-sm">
+
+    <div class="container">
+      <div class="semicircle"></div>
+      <h1 class="display-4" id="jumbo-header"><span class="hello">Hello,<br class="title-break"></span> I'm Calli. </h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. </p>
+      <div class="rectangle" id="r1"></div><br>
+      <div class="rectangle" id="r2"></div><br>
+      <div class="rectangle" id="r3"></div>
+    </div>
+  </div>
+
+  <!--FILTER FOR PORTFOLIO-->
+  <!-- <div class="portfolio-filter">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link filter-icon" href="#">All Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link filter-icon" href="#">Front-End</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link filter-icon" href="#">Back-End</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link filter-icon" href="#">Python</a>
+          </li>
+        </ul>
+      </div>   -->
+
+  <!--containter-->
+  <div class="container main  scroll-animations">
+    <!--PROJECT 2-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created August 12, 2019</small></p> -->
+            <h5 class="card-title">Hoarder Helper</h5>
+            <p class="card-text">An application that connects people with extra space to people with extra stuff. Won
+              the award for "Most Awe-Insipiring".<br>
+
+              <small>"QUOTE FROM CORINNE !!!!Best app I've of any cohort yet!" -Corrine Padilla</small></p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">Express.js to handle routing. Passport.js and Google Oauth for user
+              authentication. Amazon S3 for image storage. Deployed to Heroku. JavaScript/jQuery and Handlebars for DOM
+              manipulation.</p>
+            <a href="http://hoarder-helper.herokuapp.com/"><img src="./assets/images/007-out.png" class="card-link"></a>
+            <a href="https://github.com/mattwhittle10/project2"><img src="./assets/images/002-github-sign.png"
+                class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img src="./assets/images/project2-full-finished.jpg" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!--friend matcher-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created August 12, 2019</small></p> -->
+            <h5 class="card-title">Friend Finder</h5>
+            <p class="card-text">Compatibility based "Friend Finder" application that compares user's survey answers
+              with those of others. The app then displays the name and picture of the best overall match.</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">Express.js to handle routing. Deployed to Heroku. JavaScript and jQuery
+              for DOM manipulation.</p>
+            <a href="https://friend-finder-surveyapp.herokuapp.com/"><img src="./assets/images/007-out.png"
+                class="card-link"></a> <a href="https://github.com/ccrase/Friend-Finder"><img
+                src="./assets/images/002-github-sign.png" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img src="./assets/images/friend-full-finished.jpg" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--Amazon CLI-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created August 12, 2019</small></p> -->
+            <h5 class="card-title">Amazon CLI</h5>
+            <p class="card-text">Amazon-like storefrom CLI using MySQL to store and manipulate data. The app takes in
+              orders from the customer and depletes stock from the stores inventory. The app allows managers and
+              supervisors to track product sales across the stores departments, purchase new inventory and add new
+              products and departments.</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">Node.js, MySQL, inquirer</p>
+            <a href="https://github.com/ccrase/Amazon-CLIapp"><img src="/assets/images/002-github-sign.png"
+                class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img src="/assets/images/amazon-full-finished.jpg" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--alphabet game-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created July 6, 2019</small></p> -->
+            <h5 class="card-title">An Alphabet Learning Game</h5>
+            <p class="card-text">A simple and fun alphabet learning game. Won an Award for "Most Creative".</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">Firebase storeage for user data. GIPHY, Merriam Webster API. Javascript
+              and jQuery for DOM manipulation.</p>
+            <a href="https://ccrase.github.io/Alphabet-Game/"><img src="/assets/images/007-out.png"
+                class="card-link"></a> <a href="https://github.com/ccrase/Alphabet-Game"><img
+                src="/assets/images/002-github-sign.png" class="card-link"></a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img src="assets/images/alphabet-full-finished.png" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--gif tastic-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created June 20, 2019</small></p> -->
+            <h5 class="card-title">Gif Tastic</h5>
+            <p class="card-text">Used GIPHY API to generate gifs for individual button clicks.</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">HTML, CSS, JavaScript, jQuery, GIPHY API.</p>
+            <a href="https://ccrase.github.io/Gif-Tastic/"><img src="/assets/images/007-out.png" class="card-link"></a>
+            <a href="https://github.com/ccrase/Gif-Tastic"><img src="/assets/images/002-github-sign.png"
+                class="card-link"></a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <img src="assets/images/giftastic-full-finished.png" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--liri-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created July 20, 2019</small></p> -->
+            <h5 class="card-title">LIRI CLI</h5>
+            <p class="card-text">This CLI app uses API data to interpret user parameters and return related data.</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">Node.js using inquirer to capture user input. Axios to access
+              Bands-in-Town, Spotify and OMDB APIs. Moment.js for date/time manipulation. DotEnv to secure API data.</p>
+            <a href="https://github.com/ccrase/Liri-Node-App"><img src="/assets/images/002-github-sign.png"
+                class="card-link"></a>
+
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <img src="assets/images/liri-full-finished.png" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+
+    <!--train time-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created June 26, 2019</small></p> -->
+            <h5 class="card-title">Train Time</h5>
+            <p class="card-text">A Simple train scheuduler using Firebase and the moment.js library.</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">Firebase for data storage, Moment.js for time manipulation, JavaScript and
+              jQuery for HTML manipulation.</p>
+            <a href="https://ccrase.github.io/Train-Time/"><img src="/assets/images/007-out.png" class="card-link"></a>
+            <a href="https://github.com/ccrase/Train-Time"><img src="/assets/images/002-github-sign.png"
+                class="card-link"></a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <img src="assets/images/train-full-finished.png" alt="..." class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--crystal game-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created June 5, 2019</small></p> -->
+            <h4 class="card-title">Crystal Collector</h4>
+            <p class="card-text">A game of guessing. Click on each crystal to match the desired number.</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">HTML, CSS, JavaScript and jQuery</p>
+            <a href="https://ccrase.github.io/Unit-4-Game/"><img src="/assets/images/007-out.png" class="card-link"></a>
+            <a href="https://github.com/ccrase/Unit-4-Game"><img src="/assets/images/002-github-sign.png"
+                class="card-link"></a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <img src="assets/images/crystal-full-finished.png" alt="crystal game" class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <!--hangman game-->
+    <div class="card animated">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card-body">
+            <br>
+            <!-- <p class="card-text"><small class="text-muted">Created May 29, 2019</small></p> -->
+            <h4 class="card-title">Hangman</h4>
+            <p class="card-text">A food themed hangman.</p>
+            <br>
+            <h5 class="technologies-title">technologies</h5>
+            <p class="card-text technologies">The app dynamically updates HTML and CSS, which is powered by Javascript.
+            </p>
+            <a href="https://ccrase.github.io/Word-Guess-Game/"><img src="./assets/images/007-out.png"
+                class="card-link"></a> <a href="https://github.com/ccrase/Word-Guess-Game "><img
+                src="./assets/images/002-github-sign.png" class="card-link"></a>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <img src="./assets/images/hangman-full-finished.png" alt="hangman" class="img-thumbnail">
+        </div>
+      </div>
+      <br>
+    </div>
+    <!--end containter-->
+  </div>
+  <br>
+  <br>
+
+
+
+  <!--FOOTER-->
+  <div class="card">
+    <div class="card-header" id="footer-header">
+
+    </div>
+    <div class="card-body" id="footer-body">
+      <blockquote class="blockquote mb-0">
+        <!-- <p>Too freaky for the squares, too square for the freakies.</p>
+                <footer class="blockquote-footer">Unkonwn<cite title="Source Title"> not sure</cite></footer> -->
+        <p class="created-by">Created by Calli Crase.</p>
+        <img src="./assets/images/001-github.png" class="footericon"><img src="./assets/images/003-linkedin.png"
+          class="footericon"><img src="./assets/images/005-mail.png" class="footericon"><img
+          src="./assets/images/006-pinterest-logo.png" class="footericon">
+      </blockquote>
+    </div>
+  </div>
+
+
+
+
+
+  <!--MODAL for RESUME-->
+
+  <!-- Modal -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeTitleCenter"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="resumeTitle">Resume</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="/assets/images/resume-pic.PNG" alt="resume" width="600px">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a href="contact.html"><button type="button" class="btn btn-primary">Contact</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <script type="text/javascript">
+      $(document).ready(function(){
+
+          function isScrolledIntoView(elem){
+            //checks to see if element is scrolled into view 
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
+
+            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+          };
+
+          //if element is scrolled into view, fade it in
+          $(window).scroll(function(){
+            $('.scroll-animations .animated').each(function(){
+              if(isScrolledIntoView(this) === true){
+                $(this).addClass('zoomIn');
+              }
+            })
+          })
+      });
+    </script> -->
+</body>
+
+</html>
