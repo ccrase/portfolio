@@ -9,14 +9,16 @@ body{
     /* background-color: #3c3c3c !important; */
     /* background-color: #f27052 !important; */
 }
-hr{
-
-}
 .contact-info{
     font-size: 18px;
 }
 .btn-link{
-    /* color: white; */
+    color: darkslategrey;
+}
+/* contact buttons */
+.btn-link:hover{
+    color: #F27052;
+    text-emphasis: none;
 }
 /* initals */
 .navbar-brand{
@@ -24,11 +26,8 @@ hr{
     font-size: 30px;
      color: #9196F2 !important;
 }
-/* contact buttons */
 
-.btn-link:hover{
-    text-emphasis: none;
-}
+
 
 
 
@@ -133,7 +132,7 @@ hr{
 }
 
 .card-link:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 a:hover{
@@ -148,6 +147,37 @@ a:hover{
 .link{
 background-color: none;
 margin: 0 15px 0 15px;
+}
+
+/* form */
+.form-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.form-text{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+form{
+    padding: 20px;
+}
+input{
+    width: 100%;
+    border: none;
+}
+::placeholder{
+}
+
+input:focus{
+    outline-width: 0;
+}
+
+/* modal */
+.modal-body{
+    text-align: center;
 }
 @media only screen and (max-width: 650px){
     .link{
@@ -172,6 +202,18 @@ margin: 0 15px 0 15px;
 @media only screen and (max-width: 554px){
     .resume-pic{
         width: 450px;
+    }
+    #r1{
+        width: 380px;
+        background-color: #F2D4AE;
+    }
+    #r2{
+        width: 420px;
+        background-color: #F2B263;
+    }
+    #r3{
+        width: 450px;
+        background-color: #F27052;
     }
 }
 @media only screen and (max-width: 523px){
