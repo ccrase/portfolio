@@ -24,7 +24,7 @@ body{
 .navbar-brand{
     font-family: 'Paytone One', sans-serif;
     font-size: 30px;
-     color: #9196F2 !important;
+     color: #A663CC !important;
 }
 
 
@@ -98,9 +98,6 @@ body{
 
 }
 
-
-
-
 /* cards for every project */
 .card{
     border: none;
@@ -119,6 +116,7 @@ body{
 .card-title{
     font-size: 30px;
     font-family: 'Lato', sans-serif;
+    /* font-family: 'Paytone One', sans-serif; */
 }
 .technologies-title{
     text-transform: uppercase;
@@ -178,11 +176,61 @@ input{
 input:focus{
     outline-width: 0;
 }
+.send-form{
+    margin-top: 30px;
+    border-radius: 2px; 
+    border: 2px solid;
+    padding: 5px 9px 5px 9px;
+    text-transform: uppercase;
+}
+
+/* about page */
+.about-me-div{
+    width: 65%;
+}
+.personal-deets{
+    letter-spacing: .2pt;
+    padding-bottom: 15px;
+}
+.profile-desc{
+    text-indent: 50px;
+}
+
 
 /* modal */
 .modal-body{
     text-align: center;
 }
+.modal-header{
+    padding: 0 10px 0 0;
+    border: none;
+}
+.modal-close{
+    border-radius: 2px; 
+    /* border: 2px solid; */
+    padding: 5px 9px 5px 9px;
+    /* text-transform: uppercase; */
+    font-size: 11px;
+}
+.modal-contact{
+    border-radius: 2px; 
+    border: 2px solid #A663CC;
+    padding: 5px 9px 5px 9px;
+    text-transform: uppercase;
+    color: #A663CC;
+    font-size: 12px;
+}
+.modal-contact:hover{
+    background-color: #A663CC;
+    border-color: #A663CC;
+}
+.modal-footer{
+    border: none;
+    padding: 0 0 15px 0;
+    /* margin: auto; */
+}
+
+
 @media only screen and (max-width: 650px){
     .link{
         margin: 0;
@@ -195,6 +243,7 @@ input:focus{
 @media only screen and (max-width: 770px){
     .title-break{
         display: inline;
+        margin: 0;
     }
 }
 
