@@ -91,19 +91,20 @@
         <div class="form-text">
             One thing I like more than creating, is talking.
         </div>
+        <div class="message-received"></div>
           <!--form-->
-        <form  action="" method="">
+        <form  action="/send" method="POST">
 
-                <input type="text" name="name" placeholder="Name">
+                <input id='name' type="text" name="name" placeholder="Name">
                 <hr>
  
-                <input type="text" name="email" placeholder="Email">
+                <input id='email' type="text" name="email" placeholder="Email">
                 <hr>
 
-                <input type="text" name="message" placeholder="Message">
+                <input id='message' type="text" name="message" placeholder="Message">
                 <hr>
 
-            <button type="submit" class="btn btn-primary">Send</button>
+            <button type="submit" class="btn btn-primary send-form">Send</button>
         </form>
           <br>   
     <!--end container-->
@@ -157,6 +158,7 @@
       </div>
 
     <!-- Optional JavaScript -->
+    <script src="./assets/javascript.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
