@@ -9,6 +9,7 @@
     "express": "^4.17.1",
     "nodemailer": "^6.3.0",
     "nodemon": "^1.19.2",
+    "octicons": "^8.5.0",
     "path": "^0.12.7"
   },
   "devDependencies": {},

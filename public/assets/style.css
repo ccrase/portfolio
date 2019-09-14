@@ -134,16 +134,26 @@ body{
     font-weight: bold;
 }
 /* github/export/heroku links */
-.card-link{
-    padding-right: 20px;
-    width: 55px;
+.fa-file-export{
+    color: #293347;
+    font-size: 32px;
+    padding-right: 10px;
 }
-.card-link:hover{
-    transform: scale(1.1);
+.fa-file-export:hover{
+    color: #A663CC;
+    transform: scale(1.05);
 }
-a:hover{
-    text-decoration: none;
+.fa-github{
+    color: #293347;
+    font-size: 35px; 
 }
+.fa-github:hover{
+    color: #A663CC;
+    transform: scale(1.05);
+}
+
+
+
 .quote-div{
     text-align: center;
 }
